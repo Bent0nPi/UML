@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T14:26:56.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.1.1140 Yowser/2.5 Safari/537.36" etag="afUTKUgTVAh1FJZ12dQ2" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-03T14:46:46.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.1.1140 Yowser/2.5 Safari/537.36" etag="pDSIR8GUDIwOZP75nquv" version="21.6.6" type="github" pages="2">
   <diagram name="Страница 1" id="sBizMQ8LaT0FdcXN7t0v">
     <mxGraphModel dx="1027" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,10 +109,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LuneG-SZEMiCJRzROQM-" name="Страница 2">
-    <mxGraphModel dx="1386" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XziLzQb5M7qAuGEYcSKG-1" value="Спецификация развёртывания" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="364" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XziLzQb5M7qAuGEYcSKG-3" value="&lt;h1&gt;OSRM&lt;/h1&gt;&lt;p&gt;Д&lt;span style=&quot;background-color: initial;&quot;&gt;ля развёртывания OSRM при помощи Docker следует использовать эту инструкцию:&amp;nbsp;https://hub.docker.com/r/osrm/osrm-backend/&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;lt;На этапе скачивания материалов с geofabric необходимо скачать файл с картой России по ссылке&amp;nbsp;&lt;/p&gt;http://download.geofabrik.de/russia-latest.osm.pbf&amp;nbsp;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Проект&lt;/h1&gt;&lt;div&gt;для скачивания всех необходимых библиотек и установления нужных связей в проекте использовать &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;yarn&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="810" height="930" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
