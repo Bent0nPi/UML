@@ -1,9 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T13:50:25.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.1.1140 Yowser/2.5 Safari/537.36" version="21.6.6" etag="nuAJR8doUPm2kpQA1_t9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T14:17:13.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.1.1140 Yowser/2.5 Safari/537.36" etag="HbMXIbGKSl4TpTTwooCN" version="21.6.6" type="github">
   <diagram name="Страница 1" id="sBizMQ8LaT0FdcXN7t0v">
-    <mxGraphModel>
+    <mxGraphModel dx="1027" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-18" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;Docker&lt;/span&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="405" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-1" value="Server&lt;br&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="FEEla8_jeJZbA3pyxbNM-4">
+          <mxGeometry width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-2" value="OSRM" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="FEEla8_jeJZbA3pyxbNM-4">
+          <mxGeometry x="2.666666666666667" y="22.5" width="66.66666666666667" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-6" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-5" value="Russian map" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-7" value="car profile" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;OSRM containers&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="395" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;exitX=0;exitY=0;exitDx=60;exitDy=45;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472.5" y="240.00000000000006" as="sourcePoint" />
+            <mxPoint x="457.5" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="457.5" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-15" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=-0.01;entryY=0.248;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="250" as="sourcePoint" />
+            <mxPoint x="482.6399999999999" y="269.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="483" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-17" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460.5" y="250" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="250" />
+              <mxPoint x="430" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-19" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-20" value="Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FEEla8_jeJZbA3pyxbNM-21" value="api.geoapify.com" style="text;strokeColor=none;fillColor=none;html=1;fontSize=17;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
